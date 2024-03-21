@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <title>Login</title>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="./register.html">Register</a></li>
+        <li style="float:right"><a href="./about.html">About</a></li>
+        <li style="float:right">
+           <a href="#login">
+              <img src="../images/login.png"
+              alt="Login Icon"
+              class="login-user"
+              width="15px">Login
+           </a>
+        </li>
+    </ul>
+    <h1>Login Page!</h1>
+    <form action="#">
+        <label for="userName">User Name
+          <input type="text" name="userName" id="UserName" required />
+        </label>
+     <br>
+        <label for="password">Password
+          <input type="password" name="password" id="password" />
+        </label><br>
+        <input type="submit"> <input type="reset">
+     </form>
+</body>
+</html>

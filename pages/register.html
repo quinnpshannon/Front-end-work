@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <title>Register</title>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="./register.html">Register</a></li>
+        <li style="float:right"><a href="./about.html">About</a></li>
+        <li style="float:right">
+           <a href="#login">
+              <img src="../images/login.png"
+              alt="Login Icon"
+              class="login-user"
+              width="15px">Login
+           </a>
+        </li>
+     </ul>
+     <h1>Register</h1>
+     <form action="#">
+        <fieldset>
+            <label for="userName">User Name
+                <input type="text" name="userName" id="UserName" required />
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="password">Password
+                <input type="password" name="password" id="password" required />
+            </label><br>
+            <label for="password">Retype Password
+                <input type="password" name="password" id="password" required />
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Where are you from?</legend>
+            <label>Michigan
+                <input type="radio" name="radio" id="mi" />
+            </label>
+            <label>New Jersey
+                <input type="radio" name="radio" id="nj" />
+            </label>
+            <label>Pennsylvania
+                <input type="radio" name="radio" id="pa" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dropdown!</legend>
+            <label>Choose a fruit</label>
+            <select name="fruits">
+                <option value="banana">Banana</option>
+                <option value="grape">Grape</option>
+                <option value="kiwi" selected>Kiwi</option>
+                <option value="apple">Apple</option>
+            </select>
+        </fieldset><br>
+        <input type="submit"><input type="reset">
+     </form>
+</body>
+</html>
